@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 1;
+    border: none;
+    outline: none;
+    vertical-align: bottom;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", 微软雅黑, Arial, sans-serif;
+}
+body{
+    background: #0f0f0f;
+}
+.title_box {
+    height: 900px;
+}
+@keyframes myfirst{
+from {transform: scale(1)}
+to {transform: scale(1.1)}
+}
+@-moz-keyframes myfirst {
+    from {transform: scale(1)}
+    to {transform: scale(1.1)}
+}
+@-webkit-keyframes myfirst {
+    from {transform: scale(1)}
+    to {transform: scale(1.1)}
+}
+@-o-keyframes myfirst{
+    from {transform: scale(1)}
+    to {transform: scale(1.1)}
+}
+.img_box>img {
+    animation: myfirst  linear 10s infinite alternate;
+    animation-duration: 6s;
+}
+.title_box {
+    overflow: hidden;
+}
+.floot1 {
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+}
+.floot1_1 {
+    width: 100px;
+    height: 100%;
+    margin-left: 10px;
+}
+.floot1_2 {
+    width: 600px;
+    height: 50px;
+    border-right: 4px #fff solid;
+    margin-top: -160px;
+    margin-bottom: 10px;
+}
+.img_box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -16px;
+}
+.left_box{
+    height: 100%;
+    position: relative;
+    z-index: 50;
+    margin-left:-2550px;
+    animation-name:mymove;
+    animation-duration:3s;
+    -webkit-animation-name:mymove;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymove{
+    from {left:0px;}
+    to {left:640px;}
+}
+
+@-webkit-keyframes mymove {
+    from {left:0px;}
+    to {left:640px;}
+}
+.nav_box{
+    position: relative;
+    z-index: 89;
+}
+.cd-nav-trigger{
+    z-index: 90;
+}
+.logo_box{
+    width: 150px;
+    height: 150px;
+}
+.logo_box{
+    position:fixed;
+    z-index:60;
+    margin: 20px;
+}
+
+
+.floot2,.floot3,.floot4,.floot5{
+    width: 1550px;
+    height: 567px;
+    float: right;
+    margin-top: 0;
+}
+.floot2_img1.animation{
+    float: left;
+    position: relative;
+    margin-top: 55px;
+    z-index: 6;
+    animation-name:mymoveA;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveA;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveA
+{
+from {transform: translate(-1200px, 0);}
+to {transform: translate(100px, 0);}
+}
+
+@-webkit-keyframes mymoveA
+{
+from {transform: translate(-1200px, 0);}
+to {transform: translate(100px, 0);}
+}
+.floot2_img2{
+    float: right;
+    position: relative;
+    margin-top: -183px;
+    z-index: 5;
+}
+.floot2_img3.animation{
+    float: right;
+    position: relative;
+    margin-top: -583px;
+    z-index: 7;
+    animation-name:mymoveB;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveB;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveB
+{
+from {left:1300px;}
+to {left:0px;}
+}
+
+@-webkit-keyframes mymoveB
+{
+from {left:1300px;}
+to {left:0px;}
+}
+.floot2_img3>img:hover {
+    transform: scale(1.3);
+}
+.floot2_img3>img{
+    transition: all 3S ease;
+}
+.floot2_img3{
+    overflow: hidden;
+}
+.img_zs{
+    float: left;
+    margin-top: -250px;
+}
+.foot6{
+    width: 100%;
+    height: 300px;
+    border-top: 1px #aaa solid;
+}
+.flbox1-1 {
+    width: 1300px;
+    height: 190px;
+    font-size: 14px;
+    padding-top: 110px;
+    margin: 0 auto;
+}
+.flbox1-2{
+    width:300px;
+    height:90px;
+    line-height: 2.2em;
+    float: left;
+    color: #fff;
+    /* background: pink; */
+}
+.flbox1-3{
+    width: 800px;
+    height: 100px;
+    float: left;
+}
+.flbox1-3>a>div {
+    width: 175px;
+    height: 40px;
+    float: left;
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    /* background: pink; */
+}
+.flbox1-3>a>div:hover{
+    color: #000;
+}

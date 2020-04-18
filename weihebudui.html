@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>维和部队</title>
+    <link rel="stylesheet" href="./css/index/nav.css">
+    <link rel="stylesheet" href="./css/weihebudui.css">
+</head>
+
+<body>
+    <div class="logo_box">
+        <a href=""><img src="./img/logo.png" alt=""></a>
+    </div>
+    <div class="title_box" id="page">
+        <nav class="nav_box">
+            <ul class="cd-primary-nav">
+                <li><a href="./index.html">首页</a></li>
+                <li><a href="./page_2.html">部队生涯</a></li>
+                <li><a href="./qiangxianjiuzai.html">抢险救灾</a></li>
+                <li><a href="./junshi.html">军史</a></li>
+                <li><a href="./junshililiang.html">军事力量</a></li>
+                <li><a href="./weihebudui.html">维和部队</a></li>
+                <li><a href="./About_us.html">关于我们</a></li>
+                <li><a href="./Contact _us.html">联系我们</a></li>
+            </ul>
+        </nav>
+        <div class="cd-overlay-nav">
+            <span class=""
+                style="transform: scaleX(0) scaleY(0); height: 3159.81px; width: 3159.81px; top: -1579.91px; left: -1579.91px;"></span>
+        </div>
+        <div class="cd-overlay-content">
+            <span class=""
+                style="transform: scaleX(0) scaleY(0); height: 3159.81px; width: 3159.81px; top: -1579.91px; left: -1579.91px;"></span>
+        </div>
+        <a href="#0" class="cd-nav-trigger"><span class="cd-icon"></span></a>
+        <div class="left_box">
+            <img src="./img/left2.png" alt="">
+        </div>
+        <div class="img_box"><img style="height: 100%;width:100%;margin-top:-950px;" src="./img/111.png" alt=""></div>
+    </div>
+    <div class="floot1">
+        <div class="floot1_1"></div>
+        <div class="floot1_2"></div>
+        <span style="font-size: 24px;color:#fff;font-weight:10px;">维 和 行 动</span>
+    </div>
+    <div class="floot2">
+        <div class="floot2_img1">
+            <img src="./img/1.png" alt="">
+        </div>
+        <div class="floot2_img2">
+            <img src="./img/bottom.png" alt="">
+        </div>
+        <div class="floot2_img3">
+            <img src="./img/777.png" alt="">
+        </div>
+    </div>
+    <div class="floot3" style="margin-top:115px;">
+        <div class="floot2_img1">
+            <img src="./img/2.png" alt="">
+        </div>
+        <div class="floot2_img2">
+            <img src="./img/bottom.png" alt="">
+        </div>
+        <div class="floot2_img3">
+            <img src="./img/666.png" alt="">
+        </div>
+    </div>
+    <div class="floot4" style="margin-top:115px;">
+        <div class="floot2_img1">
+            <img src="./img/3.png" alt="">
+        </div>
+        <div class="floot2_img2">
+            <img src="./img/bottom.png" alt="">
+        </div>
+        <div class="floot2_img3">
+            <img src="./img/444.png" alt="">
+        </div>
+    </div>
+    <div class="floot5" style="margin-top:115px;">
+        <div class="floot2_img1">
+            <img src="./img/4.png" alt="">
+        </div>
+        <div class="floot2_img2">
+            <img src="./img/bottom.png" alt="">
+        </div>
+        <div class="floot2_img3">
+            <img src="./img/333.png" alt="">
+        </div>
+    </div>
+    <img class="img_zs" src="./img/zhuangshi.png" alt="">
+    <div class="floot2 foot6">
+        <div class="flbox1-1">
+            <div class="flbox1-2">
+                Copyright &copy; 2019 厉害了我的国
+                <p>All rights reserved</p>
+            </div>
+            <div class="flbox1-3">
+                <a href="">
+                    <div>联系我们</div>
+                </a>
+                <a href="">
+                    <div>关于我们</div>
+                </a>
+                <a href="">
+                    <div>法律声明</div>
+                </a>
+                <a href="">
+                    <div style="margin-left: 30px;">桂ICP备:11004059号</div>
+                </a>
+            </div>
+            <div style="width: 100px;height:110px;float:left;margin-left: 70px;">
+                <img src="./img/ewm.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/jquery.js"></script>
+<script src="./js/index/main.js"></script>
+<script src="./js/index/velocity.min.js"></script>
+<script src="./js/jquery-1.11.0.min.js"></script>
+<script>
+    var winH = window.innerHeight;
+    document.querySelector("#page");
+    page.style.cssText = `height:${winH}px`;
+</script>
+<script>
+    function revealOnScroll() {
+        var scrolled = $(window).scrollTop();// 视窗，即viewport，页面可视范围的窗口
+        $(".floot2_img1").each(function () {
+            var current = $(this), // 当前元素
+                w_height = $(window).outerHeight(), //视窗高度
+                offsetTop = current.offset().top; //当前元素离顶部的高度
+            // 计算高度差（此处预留50是为了看效果）
+            // 当元素进入视窗时，添加class
+            if (scrolled + w_height > offsetTop) {
+                current.addClass("animation");
+            } else {
+                current.removeClass("animation");
+            }
+        });
+        $(".floot2_img3").each(function () {
+            var current = $(this),
+                w_height = $(window).outerHeight(),
+                offsetTop = current.offset().top;
+            if (scrolled + w_height > offsetTop) {
+                current.addClass("animation");
+            } else {
+                current.removeClass("animation");
+            }
+        });
+    }
+    $(window).on("scroll", revealOnScroll);
+</script>
+
+</html>

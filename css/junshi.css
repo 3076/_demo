@@ -1,0 +1,516 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 1;
+    border: none;
+    outline: none;
+    vertical-align: bottom;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", 微软雅黑, Arial, sans-serif;
+}
+
+body{
+    background: #0f0f0f;
+}
+
+.title_box {
+    height: 900px;
+}
+
+@keyframes myfirst
+{
+from {transform: scale(1)}
+to {transform: scale(1.1)}
+}
+
+@-moz-keyframes myfirst 
+{
+    from {transform: scale(1)}
+    to {transform: scale(1.1)}
+}
+
+@-webkit-keyframes myfirst 
+{
+    from {transform: scale(1)}
+    to {transform: scale(1.1)}
+}
+
+@-o-keyframes myfirst
+{
+    from {transform: scale(1)}
+    to {transform: scale(1.1)}
+}
+.img_box>img {
+    animation: myfirst  linear 10s infinite alternate;
+    animation-duration: 6s;
+}
+
+.title_box {
+    overflow: hidden;
+}
+
+.floot1 {
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.floot1_1 {
+    width: 100px;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.floot1_2 {
+    width: 600px;
+    height: 50px;
+    border-right: 2px #fff solid;
+    margin-top: -160px;
+    margin-bottom: 10px;
+}
+
+.floot2 {
+    width: 1200px;
+    height: 810px;
+    margin: 0 auto;
+}
+
+.floot2-1.animation{
+    width: 480px;
+    height: 60px;
+    position: relative;
+    animation-name:mymoveE;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveE;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+    
+}
+
+.img_box3.animation{
+    width: 580px;
+    height: 460px;
+    position: relative;
+    animation-name:mymoveE;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveE;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveE
+{
+from {right:1000px;}
+to {right:0px;}
+}
+
+@-webkit-keyframes mymoveE 
+{
+from {right:1000px;}
+to {right:0px;}
+}
+.img_box3 img{
+    margin-top: -18px;
+    margin-left: -4px;
+}
+.img_box3>img:hover {
+    transform: scale(1.3);
+}
+.img_box3>img{
+    transition: all 3S ease;
+}
+.img_box3{
+    overflow: hidden;
+}
+
+.img1{
+    margin-top:-16px;
+    position: relative;
+    z-index: 10;
+}
+.img2{
+    margin-top:-16px;
+    position: relative;
+    z-index: 1;
+}
+.img_box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -16px;
+}
+.left_box{
+    height: 100%;
+    position: relative;
+    z-index: 50;
+    margin-left:-2550px;
+    animation-name:mymove;
+    animation-duration:3s;
+    -webkit-animation-name:mymove;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes mymove
+{
+from {left:0px;}
+to {left:640px;}
+}
+
+@-webkit-keyframes mymove 
+{
+from {left:0px;}
+to {left:640px;}
+}
+.nav_box{
+    position: relative;
+    z-index: 89;
+}
+.cd-nav-trigger{
+    z-index: 90;
+}
+.logo_box{
+    width: 150px;
+    height: 150px;
+    position:fixed;
+    z-index:60;
+    margin: 20px;
+}
+.img_box4.animation{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    z-index: 30;
+    margin-top:-320px;
+    animation-name:mymoveA;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveA;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveA
+{
+from {right:1000px;}
+to {right:-480px;}
+}
+
+@-webkit-keyframes mymoveA 
+{
+from {right:1000px;}
+to {right:-480px;}
+}
+.solid2_box.animation{
+    margin: -510px 105px 0 0 ;
+    float: right;
+    position: relative;
+    animation-name:mymoveG;
+    animation-duration:1s;
+    -webkit-animation-name:mymoveG;
+    -webkit-animation-duration:1s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveG
+{
+from {left:500px;}
+to {left:0px;}
+}
+
+@-webkit-keyframes mymoveG 
+{
+from {left:500px;}
+to {left:0px;}
+}
+
+.img5_box.animation{
+    margin: -510px 25px 0 0 ;
+    float: right;
+    position: relative;
+    animation-name:mymoveG;
+    animation-duration:1s;
+    -webkit-animation-name:mymoveG;
+    -webkit-animation-duration:1S;
+    animation-fill-mode: forwards;
+}
+.solid3_box{
+    margin: -290px 0 0 -880px ;
+}
+.floot3{
+    width: 1200px;
+    height: 640px;
+    margin: 0 auto;
+}
+.img6_box{
+    width: 100%;
+    height: 540px;
+    position: relative;
+    overflow: hidden;
+}
+.img6_box>img{
+    animation: myfirst  linear 10s infinite alternate;
+    animation-duration: 6s;
+}
+.img7.animation{
+    position: relative;
+    z-index: 10;
+    float: right;
+    margin-top: -250px;
+    margin-right: 70px;
+    animation-name:mymoveI;
+    animation-duration:1s;
+    -webkit-animation-name:mymoveI;
+    -webkit-animation-duration:1s;
+    animation-fill-mode: forwards;
+}
+.solid4.animation{
+    position: relative;
+    z-index: 11;
+    float: right;
+    margin-top: -200px;
+    margin-right: 40px;
+    animation-name:mymoveI;
+    animation-duration:1s;
+    -webkit-animation-name:mymoveI;
+    -webkit-animation-duration:1s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveI
+{
+from {left:1000px;}
+to {left:0px;}
+}
+
+@-webkit-keyframes mymoveI 
+{
+from {left:1000px;}
+to {left:0px;}
+}
+.floot4.animation{
+    width: 500px;
+    height: 340px;
+    float: left;
+    z-index: 12;
+    margin: -80px 0 0 110px;
+    position: relative;
+    animation-name:mymoveB;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveB;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveB
+{
+from {right:1000px;}
+to {right:-100px;}
+}
+
+@-webkit-keyframes mymoveB 
+{
+from {right:1000px;}
+to {right:-100px;}
+}
+.solid5{
+    float: right;
+    margin: -120px 460px 0 0;
+}
+.floot5{
+    width: 1200px;
+    height: 545px;
+    margin: 0 auto;
+    margin-top: 345px;
+}
+.img9.animation{
+    float: left;
+    margin: 68px 0 0 -200px;
+    position: relative;
+    animation-name:mymoveC;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveC;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveC
+{
+from {right:1200px;}
+to {right:0px;}
+}
+
+@-webkit-keyframes mymoveC 
+{
+from {right:1200px;}
+to {right:0px;}
+}
+.img10.animation{
+    float: right;
+    margin: -16px 0 0 0;
+    position: relative;
+    animation-name:mymoveD;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveD;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveD
+{
+from {left:1200px;}
+to {left:0px;}
+}
+
+@-webkit-keyframes mymoveD 
+{
+from {left:1200px;}
+to {left:0px;}
+}
+
+.img10>img:hover {
+    transform: scale(1.3);
+}
+.img10>img{
+    transition: all 3S ease;
+}
+.img10{
+    overflow: hidden;
+}
+.title1_box.animation{
+    position: relative;
+    animation-name:mymoveC;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveC;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+.floot6{
+    width: 1200px;
+    height: 630px;
+    margin: 0 auto;
+}
+.floot6_1.animation{
+    width: 315px;
+    height: 260px;
+    background: #FF6161;
+    float: left;
+    margin-top: 370px;
+    position: relative;
+    animation-name:mymoveL;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveL;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+.floot6_img.animation{
+    float: left;
+    position: relative;
+    z-index: 12;
+    margin: -15px 0 0 -305px;
+    animation-name:mymoveL;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveL;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveL
+{
+from {right:1200px;}
+to {right:0px;}
+}
+
+@-webkit-keyframes mymoveL 
+{
+from {right:1200px;}
+to {right:0px;}
+}
+.floot6_img>img:hover {
+    transform: scale(1.3);
+}
+.floot6_img>img{
+    transition: all 3S ease;
+}
+.floot6_img{
+    overflow: hidden;
+}
+.foot6_title{
+    position: relative;
+}
+.floot6_solid8.animation{
+    position: relative;
+    float: right;
+    margin: 195px -25px 0 0;
+    animation-name:mymoveO;
+    animation-duration:1s;
+    -webkit-animation-name:mymoveO;
+    -webkit-animation-duration:1s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveO
+{
+from {left:1200px;}
+to {left:0px;}
+}
+
+@-webkit-keyframes mymoveO 
+{
+from {left:1200px;}
+to {left:0px;}
+}
+.floot6_img2.animation{
+    position: relative;
+    float: left;
+    margin: 240px 0 0 50px;
+    animation-name:mymoveP;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveP;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveP
+{
+from {left:1200px;}
+to {left:0px;}
+}
+
+@-webkit-keyframes mymoveP
+{
+from {left:1200px;}
+to {left:0px;}
+}
+.floot7{
+    width:100%;
+    border-top: 1px #aaa solid;
+    margin-top: 300px;
+    height: 300px;
+}
+.flbox1-1 {
+    width: 1300px;
+    height: 190px;
+    font-size: 14px;
+    padding-top: 110px;
+    margin: 0 auto;
+}
+.flbox1-2{
+    width:300px;
+    height:90px;
+    line-height: 2.2em;
+    float: left;
+    color: #fff;
+    /* background: pink; */
+}
+.flbox1-3{
+    width: 800px;
+    height: 100px;
+    float: left;
+}
+.flbox1-3>a>div {
+    width: 175px;
+    height: 40px;
+    float: left;
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    /* background: pink; */
+}
+.flbox1-3>a>div:hover{
+    color: #000;
+}

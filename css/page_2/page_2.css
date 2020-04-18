@@ -1,0 +1,549 @@
+.swiper-slide{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    z-index: 10;
+}
+.logo>img{
+    width: 100%;
+    height: 100%;
+}
+
+.title_box{
+    width: 275px;
+    height: 350px;
+    background: url("../../imgs/page_2/one_icon.png") no-repeat;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.title_box>div:nth-child(1){
+    position: absolute;
+    top: 6px;
+    left: -30px;
+}
+.title_box>div:nth-child(1)>span{
+    font-size: 72px;
+    font-family: "宋体";
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.title_box>div:nth-child(2){
+    position: absolute;
+    top: 80px;
+    left: 55px;
+}
+.title_box>div:nth-child(2)>span{
+    font-size: 72px;
+    font-family: "宋体";
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.title_box>div:nth-child(3){
+    position: absolute;
+    top: 160px;
+    left: 140px;
+}
+.title_box>div:nth-child(3)>span{
+    font-size: 72px;
+    font-family: "宋体";
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.title_box>div:nth-child(4){
+    position: absolute;
+    bottom: 15px;
+    right: -30px;
+}
+.title_box>div:nth-child(4)>span{
+    font-size: 85px;
+    font-family: "宋体";
+    font-weight: bold;
+    color: #ffffff;
+}
+/* 第二屏 */
+.Screen_2{
+    width: 100%;
+    height: 66%;
+    position: absolute;
+    top: calc( 50% - 255.4px );
+    background: url("../../imgs/page_2/1.png") no-repeat;
+    background-size: cover; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+}
+
+.Screen_2>div:nth-child(1){
+    /* width: 300px; */
+    height: auto;
+    /* background: yellow; */
+    position: absolute;
+    top:35%;
+    left: 20%;
+}
+.Screen_2>div:nth-child(1)>span:nth-child(1){
+    font-size: 38px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    letter-spacing:5px;
+}
+.Screen_2>div:nth-child(1)>span:nth-child(2){
+    font-size: 50px;
+    font-family: "微软雅黑";
+    /* font-weight: bold; */
+    color: #ffffff;
+    letter-spacing:5px;
+}
+.swiper-slide .Screen_2>div:nth-child(1){
+    opacity: 0;
+   
+       /* 位移 */
+       -webkit-transform: translate(0px,100px);
+       -webkit-transition: all 1s;
+       transform: translate(0px,100px);
+       transition: all 1s;
+       -ms-transform: translate(0px,100px);
+       -ms-transition: all 1s;
+       -moz-transform: translate(0px,100px);
+       -moz-transition: all 1s;
+       -o-transform: translate(0px,100px);
+       -o-transition: all 1s;
+   }
+   .ani-slide .Screen_2>div:nth-child(1){
+       opacity: 1;
+       
+       -webkit-transform: translate(0px,0px);
+       -webkit-transition: all .4s;
+       transform: translate(0px,0px);
+       transition: all .4s;
+       -ms-transform: translate(0px,0px);
+       -ms-transition: all .4s;
+       -moz-transform: translate(0px,0px);
+       -moz-transition: all .4s;
+       -o-transform: translate(0px,0px);
+       -o-transition: all .4s;
+   }
+
+.Screen_2>div:nth-child(2){
+    /* width: 300px; */
+    height: auto;
+    /* background: yellow; */
+    position: absolute;
+    top:50%;
+    left: 30%;
+}
+.Screen_2>div:nth-child(2)>span:nth-child(1){
+    font-size: 38px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    letter-spacing:5px;
+}
+.swiper-slide .Screen_2>div:nth-child(2){
+ opacity: 0;
+
+    /* 位移 */
+    -webkit-transform: translate(0px,100px);
+	-webkit-transition: all .4s;
+	transform: translate(0px,100px);
+	transition: all .4s;
+	-ms-transform: translate(0px,100px);
+    -ms-transition: all .4s;
+    -moz-transform: translate(0px,100px);
+    -moz-transition: all .4s;
+    -o-transform: translate(0px,100px);
+    -o-transition: all .4s;
+}
+.ani-slide .Screen_2>div:nth-child(2){
+    opacity: 1;
+    
+	-webkit-transform: translate(0px,0px);
+	-webkit-transition: all 1s;
+	transform: translate(0px,0px);
+	transition: all 1s;
+	-ms-transform: translate(0px,0px);
+    -ms-transition: all 1s;
+    -moz-transform: translate(0px,0px);
+    -moz-transition: all 1s;
+    -o-transform: translate(0px,0px);
+    -o-transition: all 1s;
+}
+.Screen_2>div:nth-child(2)>span:nth-child(2){
+    font-size: 50px;
+    font-family: "微软雅黑";
+    /* font-weight: bold; */
+    color: #ffffff;
+    letter-spacing:5px;
+}
+
+/* 第三屏 */
+.Screen_3{
+    width: 100%;
+    height: 66%;
+    position: absolute;
+    top: calc( 50% - 255.4px );
+    background: url("../../imgs/page_2/2.png") no-repeat;
+    background-size: cover; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+}
+
+.Screen_3>div:nth-child(1){
+    /* width: 300px; */
+    height: auto;
+    /* background: yellow; */
+    position: absolute;
+    top:35%;
+    left: 20%;
+}
+.Screen_3>div:nth-child(1)>span:nth-child(1){
+    font-size: 38px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    letter-spacing:5px;
+}
+.Screen_3>div:nth-child(1)>span:nth-child(2){
+    font-size: 50px;
+    font-family: "微软雅黑";
+    /* font-weight: bold; */
+    color: #ffffff;
+    letter-spacing:5px;
+}
+.swiper-slide .Screen_3>div:nth-child(1){
+    opacity: 0;
+   
+       /* 位移 */
+       -webkit-transform: translate(0px,100px);
+       -webkit-transition: all 1s;
+       transform: translate(0px,100px);
+       transition: all 1s;
+       -ms-transform: translate(0px,100px);
+       -ms-transition: all 1s;
+       -moz-transform: translate(0px,100px);
+       -moz-transition: all 1s;
+       -o-transform: translate(0px,100px);
+       -o-transition: all 1s;
+   }
+   .ani-slide .Screen_3>div:nth-child(1){
+       opacity: 1;
+       
+       -webkit-transform: translate(0px,0px);
+       -webkit-transition: all .4s;
+       transform: translate(0px,0px);
+       transition: all .4s;
+       -ms-transform: translate(0px,0px);
+       -ms-transition: all .4s;
+       -moz-transform: translate(0px,0px);
+       -moz-transition: all .4s;
+       -o-transform: translate(0px,0px);
+       -o-transition: all .4s;
+   }
+
+.Screen_3>div:nth-child(2){
+    /* width: 300px; */
+    height: auto;
+    /* background: yellow; */
+    position: absolute;
+    top:50%;
+    left: 30%;
+}
+.Screen_3>div:nth-child(2)>span:nth-child(1){
+    font-size: 38px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    letter-spacing:5px;
+}
+.Screen_3>div:nth-child(2)>span:nth-child(3){
+    font-size: 38px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    letter-spacing:5px;
+}
+.swiper-slide .Screen_3>div:nth-child(2){
+ opacity: 0;
+
+    /* 位移 */
+    -webkit-transform: translate(0px,100px);
+	-webkit-transition: all .4s;
+	transform: translate(0px,100px);
+	transition: all .4s;
+	-ms-transform: translate(0px,100px);
+    -ms-transition: all .4s;
+    -moz-transform: translate(0px,100px);
+    -moz-transition: all .4s;
+    -o-transform: translate(0px,100px);
+    -o-transition: all .4s;
+}
+.ani-slide .Screen_3>div:nth-child(2){
+    opacity: 1;
+    
+	-webkit-transform: translate(0px,0px);
+	-webkit-transition: all 1s;
+	transform: translate(0px,0px);
+	transition: all 1s;
+	-ms-transform: translate(0px,0px);
+    -ms-transition: all 1s;
+    -moz-transform: translate(0px,0px);
+    -moz-transition: all 1s;
+    -o-transform: translate(0px,0px);
+    -o-transition: all 1s;
+}
+.Screen_3>div:nth-child(2)>span:nth-child(2){
+    font-size: 50px;
+    font-family: "微软雅黑";
+    /* font-weight: bold; */
+    color: #ffffff;
+    letter-spacing:5px;
+}
+
+/* 第四屏 */
+.Screen_4{
+    width: 100%;
+    height: 66%;
+    position: absolute;
+    top: calc( 50% - 255.4px );
+    background: url("../../imgs/page_2/3.png") no-repeat;
+    background-size: cover; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+}
+
+.Screen_4>div:nth-child(1){
+    /* width: 300px; */
+    height: auto;
+    /* background: yellow; */
+    position: absolute;
+    top:35%;
+    left: 20%;
+}
+.Screen_4>div:nth-child(1)>span:nth-child(1){
+    font-size: 38px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    letter-spacing:5px;
+}
+.Screen_4>div:nth-child(1)>span:nth-child(2){
+    font-size: 50px;
+    font-family: "微软雅黑";
+    /* font-weight: bold; */
+    color: #ffffff;
+    letter-spacing:5px;
+}
+.swiper-slide .Screen_4>div:nth-child(1){
+    opacity: 0;
+   
+       /* 位移 */
+       -webkit-transform: translate(0px,100px);
+       -webkit-transition: all 1s;
+       transform: translate(0px,100px);
+       transition: all 1s;
+       -ms-transform: translate(0px,100px);
+       -ms-transition: all 1s;
+       -moz-transform: translate(0px,100px);
+       -moz-transition: all 1s;
+       -o-transform: translate(0px,100px);
+       -o-transition: all 1s;
+   }
+   .ani-slide .Screen_4>div:nth-child(1){
+       opacity: 1;
+       
+       -webkit-transform: translate(0px,0px);
+       -webkit-transition: all .4s;
+       transform: translate(0px,0px);
+       transition: all .4s;
+       -ms-transform: translate(0px,0px);
+       -ms-transition: all .4s;
+       -moz-transform: translate(0px,0px);
+       -moz-transition: all .4s;
+       -o-transform: translate(0px,0px);
+       -o-transition: all .4s;
+   }
+
+.Screen_4>div:nth-child(2){
+    /* width: 300px; */
+    height: auto;
+    /* background: yellow; */
+    position: absolute;
+    top:50%;
+    left: 30%;
+}
+.Screen_4>div:nth-child(2)>span:nth-child(2){
+    font-size: 38px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    letter-spacing:5px;
+}
+.swiper-slide .Screen_4>div:nth-child(2){
+ opacity: 0;
+
+    /* 位移 */
+    -webkit-transform: translate(0px,100px);
+	-webkit-transition: all .4s;
+	transform: translate(0px,100px);
+	transition: all .4s;
+	-ms-transform: translate(0px,100px);
+    -ms-transition: all .4s;
+    -moz-transform: translate(0px,100px);
+    -moz-transition: all .4s;
+    -o-transform: translate(0px,100px);
+    -o-transition: all .4s;
+}
+.ani-slide .Screen_4>div:nth-child(2){
+    opacity: 1;
+    
+	-webkit-transform: translate(0px,0px);
+	-webkit-transition: all 1s;
+	transform: translate(0px,0px);
+	transition: all 1s;
+	-ms-transform: translate(0px,0px);
+    -ms-transition: all 1s;
+    -moz-transform: translate(0px,0px);
+    -moz-transition: all 1s;
+    -o-transform: translate(0px,0px);
+    -o-transition: all 1s;
+}
+.Screen_4>div:nth-child(2)>span:nth-child(1){
+    font-size: 50px;
+    font-family: "微软雅黑";
+    /* font-weight: bold; */
+    color: #ffffff;
+    letter-spacing:5px;
+}
+
+/* 第五屏 */
+.Screen_5{
+    width: 100%;
+    height: 66%;
+    position: absolute;
+    top: calc( 50% - 255.4px );
+    background: url("../../imgs/page_2/4.png") no-repeat;
+    background-size: cover; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+}
+
+.Screen_5>div:nth-child(1){
+    /* width: 300px; */
+    height: auto;
+    /* background: yellow; */
+    position: absolute;
+    top:35%;
+    left: 20%;
+}
+.Screen_5>div:nth-child(1)>span:nth-child(1){
+    font-size: 38px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    letter-spacing:5px;
+}
+.Screen_5>div:nth-child(1)>span:nth-child(2){
+    font-size: 50px;
+    font-family: "微软雅黑";
+    /* font-weight: bold; */
+    color: #ffffff;
+    letter-spacing:5px;
+}
+.Screen_5>div:nth-child(1)>span:nth-child(3){
+    font-size: 38px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    letter-spacing:5px;
+}
+.Screen_5>div:nth-child(1)>span:nth-child(4){
+    font-size: 50px;
+    font-family: "微软雅黑";
+    /* font-weight: bold; */
+    color: #ffffff;
+    letter-spacing:5px;
+}
+.swiper-slide .Screen_5>div:nth-child(1){
+    opacity: 0;
+   
+       /* 位移 */
+       -webkit-transform: translate(0px,100px);
+       -webkit-transition: all 1s;
+       transform: translate(0px,100px);
+       transition: all 1s;
+       -ms-transform: translate(0px,100px);
+       -ms-transition: all 1s;
+       -moz-transform: translate(0px,100px);
+       -moz-transition: all 1s;
+       -o-transform: translate(0px,100px);
+       -o-transition: all 1s;
+   }
+   .ani-slide .Screen_5>div:nth-child(1){
+       opacity: 1;
+       
+       -webkit-transform: translate(0px,0px);
+       -webkit-transition: all .4s;
+       transform: translate(0px,0px);
+       transition: all .4s;
+       -ms-transform: translate(0px,0px);
+       -ms-transition: all .4s;
+       -moz-transform: translate(0px,0px);
+       -moz-transition: all .4s;
+       -o-transform: translate(0px,0px);
+       -o-transition: all .4s;
+   }
+
+.Screen_5>div:nth-child(2){
+    /* width: 300px; */
+    height: auto;
+    /* background: yellow; */
+    position: absolute;
+    top:50%;
+    left: 30%;
+}
+.Screen_5>div:nth-child(2)>span:nth-child(1){
+    font-size: 38px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    letter-spacing:5px;
+}
+.swiper-slide .Screen_5>div:nth-child(2){
+ opacity: 0;
+
+    /* 位移 */
+    -webkit-transform: translate(0px,100px);
+	-webkit-transition: all .4s;
+	transform: translate(0px,100px);
+	transition: all .4s;
+	-ms-transform: translate(0px,100px);
+    -ms-transition: all .4s;
+    -moz-transform: translate(0px,100px);
+    -moz-transition: all .4s;
+    -o-transform: translate(0px,100px);
+    -o-transition: all .4s;
+}
+.ani-slide .Screen_5>div:nth-child(2){
+    opacity: 1;
+    
+	-webkit-transform: translate(0px,0px);
+	-webkit-transition: all 1s;
+	transform: translate(0px,0px);
+	transition: all 1s;
+	-ms-transform: translate(0px,0px);
+    -ms-transition: all 1s;
+    -moz-transform: translate(0px,0px);
+    -moz-transition: all 1s;
+    -o-transform: translate(0px,0px);
+    -o-transition: all 1s;
+}
+.Screen_5>div:nth-child(2)>span:nth-child(2){
+    font-size: 50px;
+    font-family: "微软雅黑";
+    /* font-weight: bold; */
+    color: #ffffff;
+    letter-spacing:5px;
+}

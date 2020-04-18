@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 1;
+    border: none;
+    outline: none;
+    vertical-align: bottom;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", 微软雅黑, Arial, sans-serif;
+}
+body{
+    background: #0f0f0f;
+}
+.title_box {
+    height: 900px;
+}
+@keyframes myfirst{
+from {transform: scale(1)}
+to {transform: scale(1.1)}
+}
+@-moz-keyframes myfirst {
+    from {transform: scale(1)}
+    to {transform: scale(1.1)}
+}
+@-webkit-keyframes myfirst {
+    from {transform: scale(1)}
+    to {transform: scale(1.1)}
+}
+@-o-keyframes myfirst{
+    from {transform: scale(1)}
+    to {transform: scale(1.1)}
+}
+.img_box>img {
+    animation: myfirst  linear 10s infinite alternate;
+    animation-duration: 6s;
+}
+.title_box {
+    overflow: hidden;
+}
+.floot1 {
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+}
+.floot1_1 {
+    width: 100px;
+    height: 100%;
+    margin-left: 10px;
+}
+.floot1_2 {
+    width: 600px;
+    height: 50px;
+    border-right: 4px #fff solid;
+    margin-top: -160px;
+    margin-bottom: 10px;
+}
+.img_box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -16px;
+}
+.nav_box{
+    position: relative;
+    z-index: 89;
+}
+.cd-nav-trigger{
+    z-index: 90;
+}
+.logo_box{
+    width: 150px;
+    height: 150px;
+}
+.logo_box{
+    position:fixed;
+    z-index:60;
+    margin: 20px;
+}
+.top_box{
+    float: right;
+    margin: -460px 350px 0 0;
+    position: relative;
+    z-index: 1;
+    animation-name:mymoveA;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveA;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveA{
+    from {left:1000px;}
+    to {left:0px;}
+}
+
+@-webkit-keyframes mymoveA{
+    from {left:1000px;}
+    to {left:0px;}
+}
+.floot1{
+    width: 1240px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.fuzhu_box.animation{
+    float: left;
+    position: relative;
+    margin-top: 255px;   
+    animation-name:mymoveB;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveB;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveB{
+    from {right:1200px;}
+    to {right:0px;}
+}
+
+@-webkit-keyframes mymoveB{
+    from {right:1200px;}
+    to {right:0px;}
+}
+.img13.animation{
+    float: left;
+    position: relative;
+    margin-left: 40px;
+    margin-top: -16px;
+    overflow: hidden;    
+    animation-name:mymoveB;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveB;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+
+.img13>img:hover {
+    transform: scale(1.3);
+}
+.img13>img{
+    transition: all 3S ease;
+}
+
+.img14.animation{
+    float: left;
+    position: relative;
+    margin: 220px 0 0 40px;    
+    animation-name:mymoveD;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveD;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveD{
+    from {left:1200px;}
+    to {left:0px;}
+}
+
+@-webkit-keyframes mymoveD{
+    from {left:1200px;}
+    to {left:0px;}
+}
+.floot2{
+    width: 1240px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.img15.animation{
+    float: left;
+    position: relative;
+    margin-top: 220px;   
+    animation-name:mymoveB;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveB;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+
+.img16.animation{
+    float: left;
+    margin-left: 40px;
+    position: relative;
+    overflow: hidden;   
+    animation-name:mymoveB;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveB;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+
+.img16>img:hover {
+    transform: scale(1.3);
+}
+.img16>img{
+    transition: all 3S ease;
+}
+.fuzhu_box2.animation{
+    float: left;
+    margin-left: 40px;
+    margin-top: 255px;
+    position: relative;
+    animation-name:mymoveD;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveD;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+.floot3{
+    width: 1240px;
+    height: 900px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.fuzhu_box3.animation{
+    float: left;
+    position: relative;
+    margin-top:355px;
+    animation-name:mymoveB;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveB;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards; 
+}
+.img17.animation{
+    float: left;
+    position: relative;
+    margin-left: 40px;
+    margin-top: -16px;
+    animation-name:mymoveB;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveB;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+.img18.animation{
+    float: left;
+    position: relative;
+    margin-left: 40px;
+    margin-top: -16px;
+    animation-name:mymoveD;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveD;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+.img19.animation{
+    float: left;
+    position: relative;
+    margin: 40px 0 0 140px;
+    animation-name:mymoveD;
+    animation-duration:3s;
+    -webkit-animation-name:mymoveD;
+    -webkit-animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+.img17>img:hover {
+    transform: scale(1.3);
+}
+.img17>img{
+    transition: all 3S ease;
+}
+.img17{
+    overflow: hidden;
+}
+.img18>img:hover {
+    transform: scale(1.3);
+}
+.img18>img{
+    transition: all 3S ease;
+}
+.img18{
+    overflow: hidden;
+}
+
+
+
+.floot7{
+    width:100%;
+    border-top: 1px #aaa solid;
+    margin-top: 200px;
+    height: 300px;
+}
+
+.flbox1-1 {
+    width: 1300px;
+    height: 190px;
+    font-size: 14px;
+    padding-top: 110px;
+    margin: 0 auto;
+}
+.flbox1-2{
+    width:300px;
+    height:90px;
+    line-height: 2.2em;
+    float: left;
+    color: #fff;
+    /* background: pink; */
+}
+.flbox1-3{
+    width: 800px;
+    height: 100px;
+    float: left;
+}
+.flbox1-3>a>div {
+    width: 175px;
+    height: 40px;
+    float: left;
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    /* background: pink; */
+}
+.flbox1-3>a>div:hover{
+    color: #000;
+}
